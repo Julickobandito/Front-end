@@ -1,0 +1,25 @@
+#date, .education{
+    cursor: pointer;
+}
+.change1{
+    background: #83A2D1;
+    color: #fff;
+}
+.visibility{
+    display: none;
+}
+.visible{
+    display: block;
+}
+.change2{
+    background: #FFDE67;
+    color: #83A2D1;
+}
+
+.big{
+    width: 1000px;
+}
+
+.small{
+    width: 400px;
+}
