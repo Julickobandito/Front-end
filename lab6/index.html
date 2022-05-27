@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        body{
+            margin-left: 2%;
+        }
+        form{
+            justify-content: center;
+            width: 200px;
+        }
+        .input {
+            border: 3px solid crimson;
+        }
+        label + input{
+            margin-bottom: 15px;
+        }
+        #btn{
+            cursor: pointer;
+            width: 175px;
+            background: #4545c9;
+            color: white;
+            height: 40px;
+            border: none;
+        }
+    </style>
+    <title>Task 1</title>
+</head>
+<body>
+    <h1>Дані:</h1>
+    <form method="GET" action="index.php" target="blank" >
+        <label for="name">Ваше ім'я:</label>
+        <input type="text" name="name" id="name" placeholder="Олексієнко М.В."> <br>
+        <label for="faculty">Факультет:</label>
+        <input type="text" name="faculty" id="faculty" placeholder="ФЕТ"> <br>
+        <label for="date">Дата народження:</label>
+        <input type="text" name="date" id="date" placeholder="dd.mm.yyyy"> <br>
+        <label for="address">Адреса:</label>
+        <input type="text" name="address" id="address" placeholder="м. Ужгород"> <br>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" id="email" placeholder="potato@gmail.com"> <br>
+        <input type="submit" id="btn" value="Підтвердити">
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
